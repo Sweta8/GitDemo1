@@ -29,7 +29,6 @@ public class Base {
 		prop.load(fis);
 		//String value=System.getProperty("browser");
 		String value=prop.getProperty("browser");
-		System.out.println(value);
 		if(value.contains("chrome"))
 		{
 			System.setProperty("webdriver.chrome.driver", "C:\\Users\\swetas\\Documents\\Java_Selenium\\chromedriver_win32 (1)\\chromedriver.exe");
